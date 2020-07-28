@@ -17,4 +17,4 @@ When you decided how many facts you want , you will a list of random facts
 ![](misc/loaded.bmp)
 
 ## TODO
--[ ] Add more facts
+- [ ] Add more facts
