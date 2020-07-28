@@ -23,9 +23,30 @@ facts=
 	},
 	{
 		"id":4,
-		"icon":"globe-icon",
+		"icon":"compass-icon",
 		"category":"Science",
 		"title":"How cold is the dry ice?",
 		"description":"Dry ice has a temperature of -78.5 degrees C"
+	},
+	{
+		"id":5,
+		"icon":"compass-icon",
+		"category":"Science",
+		"title":"What elements burns in contact with water?",
+		"description":"Magnesium and Sodium"
+	},
+	{
+		"id":6,
+		"icon":"compass-icon",
+		"category":"Science",
+		"title":"What elements burns in contact with water?",
+		"description":"Magnesium and Sodium"
+	},
+	{
+		"id":7,
+		"icon":"globe-icon",
+		"category":"Culture",
+		"title":"Are Hungarian and Finnish related",
+		"description":"Yes , Hungarian and Finnish are both fino-ugric languages"
 	}
 ];

@@ -1,4 +1,4 @@
-var fact_string="<div class=\"card m-3 p-3\"><div >\
+var fact_string="<div class=\"card m-3 p-3\" style=\"width:40%;border-radius: 15px 50px\" ><div >\
     <a id=\"fact-icon\"></a> \
     </div> \
     <div class=\"card-body\">\
