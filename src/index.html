@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <title>Wissen</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<div class="container p-3 my-3 border">
+  
+  <h1>
+    <a class="book-icon"></a>
+    <a class="know-title"></a>
+     - random facts about everything
+  </h1>
+  
+  <h2>
+    Your main source of useless knowledge
+  </h2>
+  
+  <h5>
+    But firstly the title<br>
+    The word <a class="know-title"></a> means "knowledge" in <a class="know-language"></a>
+  </h5>
+
+</div>
+
+<div class="container border p-3">
+  <div class="form-check p-3">
+    <span>
+      Number of facts
+    </span>
+    <div class="input-group">
+      <input class="input-group-text" type="number" id="fact-count" name="quantity" min="1" max="5">
+      <button class="btn btn-primary" id="fact-submit" onclick="initFacts()">
+        I want this much of  facts
+      </button>
+    </div>
+  </div>
+</div>
+
+<div class="container p-3 my-3 border" id="facts"></div>
+
+</body>
+
+<script src="htmlObj.js"></script>
+<script src="svgs.js"></script>
+<script src="title.js"></script>
+<script src="facts.js"></script>
+<script src="app.js"></script>
+
+</html>
