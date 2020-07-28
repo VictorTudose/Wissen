@@ -37,13 +37,6 @@ facts=
 	},
 	{
 		"id":6,
-		"icon":"compass-icon",
-		"category":"Science",
-		"title":"What elements burns in contact with water?",
-		"description":"Magnesium and Sodium"
-	},
-	{
-		"id":7,
 		"icon":"globe-icon",
 		"category":"Culture",
 		"title":"Are Hungarian and Finnish related",
