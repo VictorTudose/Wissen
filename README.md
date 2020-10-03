@@ -1,7 +1,9 @@
 # Random fact generator website
 
-CSS framework : Bootstrap
-JS framework : JQuerry
+Frontend :
+	CSS framework : Bootstrap
+	JS framework : JQuerry
+Backend :
 
 ## Description
 
@@ -19,3 +21,4 @@ When you decided how many facts you want , you will a list of random facts
 ## TODO
 - [X] Add more facts
 - [ ] Add even more facts
+- [ ] A Lot more refactoring

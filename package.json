@@ -1,0 +1,22 @@
+{
+  "name": "wissen",
+  "version": "1.0.0",
+  "description": "RandomFacts",
+  "main": "index.js",
+  "scripts": {
+    "open" : "start index.html" ,
+    "less" : "lessc css/style.less css/style.css" ,
+    "render": "pug -P index.pug" ,
+    "build" : "npm run less && npm run render && npm run open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VictorTudose/Wissen.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VictorTudose/Wissen/issues"
+  },
+  "homepage": "https://github.com/VictorTudose/Wissen#readme"
+}
