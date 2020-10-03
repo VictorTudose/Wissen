@@ -4,10 +4,11 @@
   "description": "RandomFacts",
   "main": "index.js",
   "scripts": {
-    "open" : "start index.html" ,
-    "less" : "lessc css/style.less css/style.css" ,
-    "render": "pug -P index.pug" ,
-    "build" : "npm run less && npm run render && npm run open"
+    "open": "start index.html",
+    "less": "lessc css/styles.less css/styles.css",
+    "render": "pug -P index.pug",
+    "build": "npm run less && npm run render && npm run open",
+    "post" : "git add . && git commit -m 'commit' && git push origin master"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/VictorTudose/Wissen/issues"
   },
-  "homepage": "https://github.com/VictorTudose/Wissen#readme"
+  "homepage": "https://github.com/VictorTudose/Wissen#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1"
+  }
 }

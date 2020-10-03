@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+  <title>Wissen</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+</head>
+<body>
+  <div class="container p-3 my-3 border">
+    <h1><a class="book-icon"></a><a class="know-title"></a>			- random facts about everything</h1>
+    <h2>Your main source of useless knowledge</h2>
+    <h5>But firstly the title<br>		 The word <a class="know-title"></a>	means &quot;knowledge&quot; in <a class="know-language"></a></h5>
+  </div>
+  <div class="container border p-3">
+    <div class="form-check p-3"><span>Number of facts</span>
+      <div class="input-group">
+        <input class="input-group-text" id="fact-count" type="number" name="quantity" min="1" max="5">
+        <button class="btn btn-primary" id="fact-submit" onclick="initFacts()">I want this much of	facts</button>
+      </div>
+    </div>
+  </div>
+  <div class="container p-3 my-3 border" id="facts" style="display: flex; flex-flow: wrap;"></div>
+  <script src="app/htmlObj.js"></script>
+  <script src="app/svgs.js"></script>
+  <script src="app/title.js"></script>
+  <script src="app/facts.js"></script>
+  <script src="app/app.js"></script>
+</body>

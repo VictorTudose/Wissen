@@ -1,0 +1,37 @@
+doctype html
+head
+	title Wissen
+	meta(charset='utf-8')
+	meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
+	include includes/links.pug
+	include includes/scripts.pug
+	script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js')
+body
+	.container.p-3.my-3.border
+		h1
+			a.book-icon
+			a.know-title
+			|			- random facts about everything
+		h2
+			| Your main source of useless knowledge
+		h5
+			| But firstly the title
+			br
+			|		 The word 
+			a.know-title
+			|	means &quot;knowledge&quot; in 
+			a.know-language
+	.container.border.p-3
+		.form-check.p-3
+			span
+				| Number of facts
+			.input-group
+				input#fact-count.input-group-text(type='number' name='quantity' min='1' max='5')
+				button#fact-submit.btn.btn-primary(onclick='initFacts()')
+					| I want this much of	facts
+	#facts.container.p-3.my-3.border(style='display: flex; flex-flow: wrap;')
+	script(src='app/htmlObj.js')
+	script(src='app/svgs.js')
+	script(src='app/title.js')
+	script(src='app/facts.js')
+	script(src='app/app.js')
