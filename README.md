@@ -6,7 +6,7 @@ Frontend :
 
 ## Description
 
-It generates several random facts , the number is controled from an numberic-spinner field , also its main title change to a word ,in a random language , that means "knowledge
+It generates several random facts , the number is controled from an numberic-spinner field , also its main title change to a word ,in a random language , that means "knowledge" in a randomly chosen language
 
 ![](misc/init.bmp)
 ![](misc/titlechange.bmp)
